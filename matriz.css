@@ -1,0 +1,28 @@
+body{
+	background-color: aquamarine;
+}
+h1{
+	color:red;
+}
+h2{
+	color:green;
+
+}
+form input[type="text"]{
+	    	background: blue;
+	    	color: #1AEE0F;
+	    	text-align: left;
+	    	display: inline-block;
+	    	margin-left: 5px;
+	    	margin-bottom: 10px;
+	    	padding: 5px 5px;
+	    	border: none;
+}
+	    	
+form input[type="submit"]{
+	         background-color:brown;
+	     }
+
+form select[type="text"]{
+	         background-color:gold;
+	         }	     

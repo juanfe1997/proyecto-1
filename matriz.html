@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="matriz.css">
+	</head>
+	<body>
+		<form action="matriz.php" method="POST">
+		<table border="0" width="50%" align="center">
+			<tr>
+			<td width="10%" align="center">
+			<h1>Calculadora de matrices</h1>
+			<table border="0" width="50%">
+			<tr> 
+			<td width="30%" align="center">
+			<label><h2>Matriz A:</h2></label> 
+			<!--************************** TABLA MATRIZ A**************************************-->
+			<table border="1" width="50%"> 
+			<tr border="0"> 
+				<td><input type="text" name="A1" placeholder="A1"></td> 
+				<td><input type="text" name="A2" placeholder="A2"></td> 
+				<td><input type="text" name="A3" placeholder="A3"></td>
+			</tr> 
+			<tr> 
+				<td><input type="text" name="A4" placeholder="A4"></td> 
+				<td><input type="text" name="A5" placeholder="A5"></td> 
+				<td><input type="text" name="A6" placeholder="A6"></td> 
+			</tr>
+			<tr> 
+				<td><input type="text" name="A7" placeholder="A7"></td> 
+				<td><input type="text" name="A8" placeholder="A8"></td> 
+				<td><input type="text" name="A9" placeholder="A9"></td> 
+			</tr>  
+			</table><br>
+              <input type="text" name="nro" placeholder="Numero">
+				<select type="text" name="operaciones" id="operacion">
+					<option value="Seleccion">Opción</option>
+					<option value="Determinante">Determinante</option>
+					<option value="MatrizInversa">Matriz inversa</option>
+					<option value="MatrizTranspuesta">Matriz transpuesta</option>
+					<option value="Multiplicar">Multiplicar matriz A</option>
+					<option value="Elevar">Elevar matriz A</option>
+					</select>
+				<input type="submit" name="enviar1" value="Enviar">
+			</td>
+		</table>
+	</body>
+</html>
